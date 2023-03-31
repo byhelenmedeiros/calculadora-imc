@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora de IMC</title>
+</head>
+<body>
+    <main>
+        <section>
+            <div class="container_text">
+                <h1>
+                    Calculadora de IMC
+                </h1>
+                <h2>
+                    Além de calcular o valor de <strong>IMC</strong> esta calculadora também indica qual o <strong>intervalo de peso</strong> ideal que deve ter para garantir uma melhor qualidade de vida.
+                </h2>
+                <p>Coloque os seus dados na calculadora para que possamos fazer os cálculos</p>
+
+            </div>
+        </section>
+        <section>
+            <div class="container_calc_sex">
+                <fieldset><legend>Os seus dados</legend>
+                    <label for="sex-cal">Sexo:</label>
+                    <input type="button" value="Feminino">
+                    <input type="button" value="Masculino">
+              
+                    <label for="idade">Idade: </label><input type="number" name="idade" id="idade" placeholder="23 ">
+                    <label for="idade">Peso: </label><input type="number" name="altura" id="altura" placeholder="74">kg
+                    <label for="idade">Altura: </label><input type="number" name="altura" id="altura" placeholder="178"> Metros 
+                </fieldset>
+                <button class="calcular">Calcular</button>
+            </div>
+            <div class="res">
+                
+            </div>
+        </section>
+    </main>
+    
+
+
+    
+    <script src="/script.js"></script>
+</body>
+</html>

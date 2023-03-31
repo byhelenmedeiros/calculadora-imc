@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'FAMILY_NAME';
+    src: url(/Nunito-VariableFont_wght.woff2) format('woff2');
+   }
+
+*{
+    box-sizing: 0;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container_text h1{
+    font: normal 2em PTsans;
+}
