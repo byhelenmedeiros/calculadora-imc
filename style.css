@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'FAMILY_NAME';
+    font-family: 'Nunito';
     src: url(/Nunito-VariableFont_wght.woff2) format('woff2');
    }
 
@@ -9,7 +9,34 @@
     padding: 0;
 }
 
+body{
+    background-image: url(/bg.png);
+    background-size: cover;
+}
 
+section{
+    background: #ffff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: auto;
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;   
+    justify-content: center;
+    align-items: center; 
+}
+.container_text {
+    
+
+  
+}
 .container_text h1{
-    font: normal 2em PTsans;
+    font: bold 2em Nunito;
+    text-align: center;
+    margin: 20px;
+}
+.container_text h2{
+    font: normal 1.2em Nunito;
+    text-align: center;
+    margin: 20px auto;
 }
