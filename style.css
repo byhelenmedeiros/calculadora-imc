@@ -33,17 +33,17 @@ section {
 
 }
 .container_text h1{
-    font: bold 2em Nunito;
+    font: bold 1.8em Nunito;
     text-align: center;
 
 }
 .container_text h2{
-    font: normal 1.3em Nunito;
+    font: normal 1em Nunito;
     text-align: center;
     margin: 20px auto;
 }
 .container_text p{
-    font: normal 1em arial;
+    font: normal .8em arial;
     text-align: center;
     margin: 20px auto;
 }
@@ -52,7 +52,7 @@ fieldset{
     font: bold 1em nunito;
     border: 1px solid #d0d0d0;
     border-radius: 5px;
-    padding: 20px;
+    padding: 15px;
 }
 input{
     padding: 10px;
