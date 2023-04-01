@@ -24,8 +24,9 @@ section {
 .container {
     background: #ffff;
     width: 60%;
+    height: 75%;
     border-radius: 10px;
-    padding: 40px;
+    padding: 30px;
   }
   
 .container_text {
@@ -55,10 +56,10 @@ fieldset{
     padding: 15px;
 }
 input{
-    padding: 10px;
+    padding: 8px;
     border-radius: 5px;
     border: solid 1px #d0d0d0;
-    max-width: 50%;
+    max-width: 40%;
     margin: 0 5px 20px;
 
 }
@@ -66,7 +67,7 @@ input{
 .button-sex{
     border: solid 1px #d0d0d0;
     border-radius: 5px;
-    font: normal 1em Nunito;
+    font: normal .8em Nunito;
     cursor: pointer;
 }
 
