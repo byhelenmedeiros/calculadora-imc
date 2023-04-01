@@ -21,12 +21,18 @@
                 <p>Coloque os seus dados na calculadora para que possamos fazer os cálculos</p>
 
             </div>
+            <form action="calculadora">
             <div class="container_calc_sex">
                 <fieldset><legend>Os seus dados</legend>
-                    <label for="peso">Peso: </label><input type="number" name="peso" id="peso" placeholder="74"> KG<br>
-                    <label for="altura">Altura: </label><input type="number" name="altura" id="altura" placeholder="178"> Metros
+                    <label for="peso">Peso: </label><input type="number" name="peso" id="peso" placeholder="Exemplo: 74"> KG<br>
+                    <label for="altura">Altura: </label><input type="number" name="altura" id="altura" placeholder="Exemplo: 178"> Metros
                     </fieldset>
-                <button class="calcular" onclick="calcular()">Calcular</button>
+
+                <div class="container-buttons">    
+                    <button class="limpar limpar-btn" onclick="limpar()">Limpar</button>
+                    <button class="calcular" onclick="calcular()">Calcular</button>
+                </div>
+                </form>
             </div>
                 <div class="res">
                 
