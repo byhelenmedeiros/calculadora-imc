@@ -29,21 +29,16 @@ section {
   }
   
 .container_text {
-    text-align: center;
-    
+    text-align: center;    
 
-    
-
-
-  
 }
 .container_text h1{
     font: bold 2em Nunito;
     text-align: center;
-    margin: 20px;
+
 }
 .container_text h2{
-    font: normal 1.2em Nunito;
+    font: normal 1em Nunito;
     text-align: center;
     margin: 20px auto;
 }
