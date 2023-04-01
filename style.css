@@ -66,5 +66,20 @@ input{
 .button-sex{
     border: solid 1px #d0d0d0;
     border-radius: 5px;
-    font: normal 1em Nunito
+    font: normal 1em Nunito;
+    cursor: pointer;
+}
+
+.calcular{
+    background-color: rgb(86, 92, 126);
+    border: solid 1px #d0d0d0;
+    color: #d0d0d0;
+    border-radius: 5px;
+    font: bold 1em Nunito;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px;
+    cursor: pointer;
+    text-align: center;
+    width: 300px;
 }
