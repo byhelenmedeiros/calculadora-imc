@@ -11,22 +11,32 @@
 
 body{
     background-image: url(/bg.png);
+
     background-size: cover;
 }
-
-section{
-    background: #ffff;
-    border-radius: 10px;
-    padding: 20px;
-    margin: 0 auto;
-    max-width: 50%;
+section {
     display: flex;
-    flex-direction: column;   
-    justify-content: center;
-    align-items: center; 
+    justify-content: center; /* centraliza o conteúdo na horizontal */
+    align-items: center; /* centraliza o conteúdo na vertical */
+    height: 100vh;
 }
+  
+.container {
+    background: #ffff;
+    width: 60%;
+    border-radius: 10px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
 .container_text {
     text-align: center;
+    
+
+    
 
 
   
