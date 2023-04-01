@@ -18,7 +18,7 @@ section {
     display: flex;
     justify-content: center; /* centraliza o conteúdo na horizontal */
     align-items: center; /* centraliza o conteúdo na vertical */
-    height: 100vh;
+    height: 95vh;
 }
   
 .container {
